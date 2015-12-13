@@ -51,7 +51,7 @@ Some even nicer text
 
 You may specify options when `use`ing the plugin. like so:
 ``` javascript
-md.use(require("markdown-it-table-of-contents", options));
+md.use(require("markdown-it-table-of-contents"), options);
 ```
 
 These options are available:
